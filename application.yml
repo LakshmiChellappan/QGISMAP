@@ -1,0 +1,10 @@
+spring:
+  mvc:
+    static-path-pattern: /static/**
+    static-locations: classpath:/static/
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
